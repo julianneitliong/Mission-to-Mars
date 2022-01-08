@@ -1,4 +1,19 @@
-from flask import flask, render_template, redirect, url_for
+# # import the complete PyMongo library and check its version
+# import pymongo
+# print ("pymongo version:", pymongo.version)
+
+# # import the MongoClient class
+# from pymongo import MongoClient
+
+# # build a new client instance for MongoDB passing
+# # the string domain and integer port to the host parameters
+# mongo_client = MongoClient('localhost', 27017)
+
+# host_info = mongo_client['HOST']
+# print ("\nhost:", host_info)
+
+
+from flask import Flask, render_template, redirect, url_for
 from flask.app import Flask
 from flask_pymongo import PyMongo
 import scraping
